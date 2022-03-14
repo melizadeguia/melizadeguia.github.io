@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container{
+    display: grid;
+    grid-template-areas: 
+    "nav nav nav"
+    "articles articles articles"
+    "article1 article1 article1"
+    "morearticles morearticles morearticles"
+    "morearticles morearticles morearticles"
+    "footer footer footer";
+    grid-template-columns: 20% 60% 20%;
+}
+
+.signup{
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+}
+
+.signup:hover{
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.774);
+}
+
+nav{
+    grid-area: nav;
+    text-align: center;
+    padding: 10px;
+    
+    border-bottom: 1px solid rgb(187, 185, 185);
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(192, 184, 139);
+    margin-left: 20px;
+    font-size: 17px;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color: rgb(129, 124, 92);
+}
+
+.container .articles{
+    grid-area: articles;
+}
+
+.container #article1{
+    grid-area: article1;
+}
+
+#article1text h3{
+  color: rgb(129, 124, 92);
+}
+
+#article1text p{
+  color: black;
+}
+
+#article1text a:hover{
+  text-decoration: underline rgb(129, 124, 92);
+
+}
+
+#morearticles{
+    grid-area: morearticles;
+}
+
+#morearticles h4{
+  color:rgb(129, 124, 92) ;
+}
+
+#morearticles a{
+  border: none;
+  background-color: #4b4c4da8;
+  color: #ccc;
+}
+
+#morearticles a:hover{
+  background-color: #313233;
+}
+
+footer{
+    grid-area: footer;
+    margin-top: 200px;
+    background-color: #dddad0;
+    padding: 40px;
+}
+
+.footer-basic {
+    padding:40px 0;
+    background-color:#ffffff;
+    color:#4b4c4d;
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
