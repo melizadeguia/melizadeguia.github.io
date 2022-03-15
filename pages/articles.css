@@ -18,7 +18,7 @@
 .signup{
     text-decoration: none;
     color: gray;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .signup:hover{
@@ -87,14 +87,14 @@ nav a:hover{
 
 footer{
     grid-area: footer;
-    margin-top: 200px;
+    
     background-color: #dddad0;
-    padding: 40px;
+    padding: 10px;
 }
 
 .footer-basic {
     padding:40px 0;
-    background-color:#ffffff;
+    background-color:#dddad0;
     color:#4b4c4d;
   }
   
