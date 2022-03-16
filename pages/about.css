@@ -12,6 +12,7 @@
     "picdescription picdescription picdescription"
     "footer footer footer";
     grid-template-columns: 20% 60% 20%;
+    margin-bottom: 200px;
 }
 
 .signup{
@@ -55,6 +56,10 @@ nav a:hover{
 
 .container #about{
     color: rgb(146, 139, 103);
+}
+
+#description{
+  border-left: 1px solid;
 }
 
 footer{

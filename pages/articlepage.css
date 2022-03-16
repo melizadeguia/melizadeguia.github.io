@@ -12,6 +12,7 @@
     "content content other"
     "content content other";
     grid-template-columns: 20% 60% 20%;
+    margin-bottom: 200px;
 }
 
 .signup{

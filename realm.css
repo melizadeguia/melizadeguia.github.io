@@ -13,6 +13,7 @@
     "videos videos videos"
     "footer footer footer";
     grid-template-columns: 20% 60% 20%;
+    margin-bottom: 200px;
 }
 
 #header{

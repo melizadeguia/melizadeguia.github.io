@@ -7,11 +7,8 @@
     display: grid;
     grid-template-areas: 
     "nav nav nav"
-    "articles articles articles"
-    "article1 article1 article1"
-    "morearticles morearticles morearticles"
-    "morearticles morearticles morearticles"
-    "footer footer footer";
+    "title title title"
+    "content content content";
     grid-template-columns: 20% 60% 20%;
     margin-bottom: 200px;
 }
@@ -47,44 +44,27 @@ nav a:hover{
     color: rgb(129, 124, 92);
 }
 
-.container .articles{
-    grid-area: articles;
+.container h1{
+    grid-area: title;
 }
 
-.container #article1{
-    grid-area: article1;
+#videos{
+    grid-area: content;
 }
 
-#article1text h3{
-  color: rgb(129, 124, 92);
+#videocontent iframe{
+    width: 100%;
+    height: 400px;
+    padding: 15px;
 }
 
-#article1text p{
-  color: black;
+#videocontent{
+    background-color: rgba(192, 184, 139, 0.466);
+    border-radius: 10px;
+    border: 1px solid rgba(143, 141, 141, 0.5);
+    padding: 20px;
 }
 
-#article1text a:hover{
-  text-decoration: underline rgb(129, 124, 92);
-
-}
-
-#morearticles{
-    grid-area: morearticles;
-}
-
-#morearticles h4{
-  color:rgb(129, 124, 92) ;
-}
-
-#morearticles a{
-  border: none;
-  background-color: #4b4c4da8;
-  color: #ccc;
-}
-
-#morearticles a:hover{
-  background-color: #313233;
-}
 
 footer{
     grid-area: footer;
@@ -152,3 +132,4 @@ footer{
     color:#aaa;
     margin-bottom:0;
   }
+
